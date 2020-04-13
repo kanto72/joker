@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Joker</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+    <div class="header-logo">
+        <a href="#" class="logo animated jackInTheBox delay-1s">JOKER</a>
+    </div>
+    <!-- logo -->
+        <div class="menu animated bounceInRight">
+            <button class="button">
+                <img class="burger-img"  src="img/burger.png" alt="menu">
+            </button>
+        </div>
+    </header>
+
+    <!-- header -->
+    <main class="main">
+        <div class="container">
+            <section class="promo">
+                <h1 class="promo-text animated fadeInLeft ">Я думал, что моя  — Жизнь трагедия. 
+                    Но сейчас понял, что это <span class="promo-h1 animated fadeInLeft delay-1s">комедия</span>&spades;</h1>
+                <div class="main-text animated rollIn delay-2s">
+                    <p class="text">
+                        Вы все — система, которая так много знает. 
+                        <br>
+                        Вы решаете, что хорошо, а что плохо. 
+                        <br>
+                        Точно так же, вы решаете, что смешно, а что нет.
+                    </p>
+                </div>
+                <div class="trailer-btn animated bounceInLeft delay-3s" id="play">
+                    <span class="trailer-play"><i class="far fa-play-circle">
+
+                    </i> WATCH TRAILER</span>
+                </div>
+            </section>
+                <section class="content">
+                <div class="video animated bounceInUp delay-2s">
+                    <video muted src="media/joker.mp4" width="320" height="240" autoplay id="video"></video>
+                </div>
+                <div class="content-social">
+                    <a class="social-web animated bounceInRight" href="#"><img src="img/fb.svg" alt=""></a>
+                    <a class="social-web animated bounceInRight" href="#"><img src="img/inst.svg" alt=""></a>
+                    <a class="social-web animated bounceInRight delay-1s" href="#"><img src="img/vk.svg" alt=""></a>
+                </div>
+            </section>
+            <!-- social -->
+            </div>
+    </main>
+</div>
+        <!-- container -->
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&#10006;</span>
+            <div class="modal-video">
+                <video class="trailer" src="media/joker.mp4" controls></video>
+            </div>
+            </div>
+        </div>
+</body>
+<script src="js/script.js"></script>
+</html>
